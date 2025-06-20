@@ -10,7 +10,7 @@
 
 CDK (Cesium Development Kit)
 
-A high-performance, powerful geospatial analysis toolkit developed based on Cesium. It offers comprehensive analytical functions, enabling you to efficiently meet complex geospatial data analysis and visualization needs.
+A powerful geospatial analysis toolkit developed based on Cesium. It offers comprehensive analytical functions, enabling you to efficiently meet complex geospatial data analysis and visualization needs.
 
 
 
@@ -31,6 +31,26 @@ npm install @giserlab/cdk
 # or
 pnpm i @giserlab/cdk
 ```
+
+
+
+Run demo 
+
+```bash
+# clone repo
+git clone https://github.com/giserlab/cdk.git
+cd cdk
+# install dependencies
+pnpm i -w
+cd demo 
+pnpm i --ignore-workspace
+# run
+pnpm run dev
+```
+
+
+
+
 
 [API Documentation](https://giserlab.github.io/docs/cdk/index.html)
 

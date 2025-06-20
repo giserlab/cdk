@@ -28,6 +28,22 @@ npm i @giserlab/cdk
 pnpm i @giserlab/cdk
 ```
 
+运行示例
+
+```bash
+# 克隆仓库
+git clone https://github.com/giserlab/cdk.git
+cd cdk
+# 安装依赖
+pnpm i -w
+cd demo 
+pnpm i --ignore-workspace
+# 运行
+pnpm run dev
+```
+
+
+
 [API文档](https://giserlab.github.io/docs/cdk/index.html)
 
 

@@ -1,0 +1,27 @@
+{
+  "name": "@giserlab/sight",
+  "version": "0.2.0",
+  "description": "通视分析",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "sight",
+    "formats": [
+      "esm"
+    ],
+    "doc": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "geospatial"
+  ],
+  "author": "wangshihan",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.123.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "@giserlab/isosurface",
+  "version": "0.2.0",
+  "description": "等值面分析",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "isosurface",
+    "formats": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "geospatial"
+  ],
+  "author": "Wangshihan",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.101.0"
+  }
+}

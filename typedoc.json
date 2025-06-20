@@ -1,0 +1,8 @@
+{
+  "entryPoints": ["index.ts"],
+  "out": "doc",
+  "readme": "none",
+  "includeVersion": true,
+  "disableSources": true,
+  "gitRevision": "main"
+}

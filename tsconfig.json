@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "dist", // 输出的目录
+    "sourceMap": true, // 开启 sourcemap
+    "target": "ES6", // 转译的目标语法
+    "module": "ES6", // 模块格式
+    "moduleResolution": "node", // 模块解析方式
+    "strict": false, // 关闭严格模式，就能使用 any 了
+    "resolveJsonModule": true, // 解析 json 模块
+    "esModuleInterop": true, // 允许通过 es6 语法引入 commonjs 模块
+    "jsx": "preserve", // jsx 不转义
+    "lib": ["esnext", "dom"], // 支持的类库 esnext 及 dom
+    // "baseUrl": ".", // 当前目录，即项目根目录作为基础目录
+    "declaration": false, // 生成定义文件
+    "paths": {
+      "@packages/*": ["../packages/*/src"]
+    },
+    "skipLibCheck": true
+    // "declarationMap": false, // 生成定义sourceMap
+    // "declarationDir": "./dist" // 定义文件输出目录
+  },
+  "exclude": ["./demo/**"]
+}

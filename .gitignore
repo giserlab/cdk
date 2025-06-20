@@ -1,0 +1,11 @@
+node_modules/
+dist/
+lib/
+docs/
+doc/
+types/
+example/node_modules/
+example/.env.development
+.changeset/
+tests/
+test_dev/

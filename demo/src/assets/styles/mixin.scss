@@ -1,0 +1,55 @@
+$---bgc: rgb(248, 248, 248);
+$--innerColor: rgb(247, 247, 247);
+$--acitiveFontColor: #fff;
+
+.panel {
+  box-sizing: border-box;
+  padding: 1em;
+  box-sizing: border-box;
+}
+
+svg {
+  &.icon {
+    width: 1em !important;
+    height: 1em !important;
+  }
+}
+
+svg {
+  path: {
+    fill: #000;
+  }
+}
+
+:deep(.el-input-number) {
+  flex: 1;
+}
+:deep(.el-color-picker) {
+  flex: 1;
+  .el-color-picker__trigger {
+    width: 100%;
+  }
+}
+
+:deep(.el-slider) {
+  flex: 1;
+}
+
+@mixin scroll-style {
+  overflow: auto;
+  /* 设置滚动条的样式 */
+  &::-webkit-scrollbar {
+    width: 0.2em /* 5/192 */;
+    height: 0px;
+  }
+  /* 滚动槽 */
+  &::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: rgb(69, 69, 69);
+  }
+  /* 滚动条滑块 */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background: rgb(141, 143, 144);
+  }
+}

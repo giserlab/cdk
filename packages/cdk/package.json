@@ -1,0 +1,26 @@
+{
+  "name": "@giserlab/cdk",
+  "version": "0.2.0",
+  "description": "An efficient and powerful geographic space analysis package developed based on Cesium, providing a rich set of geographic space analysis functions to help you quickly meet complex geographic information analysis and visualization needs.",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "cdk",
+    "formats": [
+      "esm",
+      "umd",
+      "iife"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "geospatial"
+  ],
+  "author": "wangshihan",
+  "license": "ISC",
+  "dependencies": {}
+}

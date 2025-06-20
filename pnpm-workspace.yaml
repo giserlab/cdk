@@ -1,0 +1,4 @@
+packages:
+  # 所有packages下的子目录皆为模块/
+  - 'packages/*'
+  - '!demo/*'

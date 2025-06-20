@@ -1,0 +1,32 @@
+{
+  "name": "@giserlab/contour",
+  "version": "0.2.0",
+  "description": "等高线分析",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "contour",
+    "formats": [
+      "esm"
+    ],
+    "doc": true
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "geospatial"
+  ],
+  "author": "wangshihan",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.123.0",
+    "@turf/bbox": "^7.2.0",
+    "@turf/bezier-spline": "^7.2.0",
+    "@turf/helpers": "^7.2.0",
+    "@turf/isolines": "^7.2.0",
+    "@turf/point-grid": "^7.2.0"
+  }
+}

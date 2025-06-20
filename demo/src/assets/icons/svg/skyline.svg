@@ -1,0 +1,14 @@
+<svg t="1735091666045" class="icon" viewBox="0 0 1024 1024" version="1.1"
+    xmlns="http://www.w3.org/2000/svg" p-id="2054" width="200" height="200">
+    <path
+        d="M304 624H245.824v-96H240v96h-64v192h-96v96h832v-416h-64v320h-192v-448h-64v-8 8h-64v448h-224v-192z"
+        fill="#FFFFFF" p-id="2055"></path>
+    <path
+        d="M512 800V352h64V256h32v96h64v448h160V480h96v448H64v-128h96v-192h64v-96h37.824v96H320v192h192z m32-416v448H288v-192H192v192H96v64h800V512h-32v320h-224V384h-96z"
+        fill="#707070" p-id="2056" data-spm-anchor-id="a313x.search_index.0.i4.40a73a81sXhSl7"
+        class="selected"></path>
+    <path
+        d="M129.984 576.704v191.456H68.064v-32h29.92v-191.456h62.208V449.6h160.416v95.104h65.28v191.456h62.624L446.4 287.36h66.112V192.32H672v95.04h64v448.8h32.096v-319.968H928v32h-127.904v320H704V319.296h-64V224.32h-95.52v95.04h-65.92l2.112 448.8h-126.816v-191.456H288.64V481.6H192.192v95.104H129.984zM576 64h32v128h-32V64zM224 352h32v96H224v-96z"
+        fill="#707070" p-id="2057" data-spm-anchor-id="a313x.search_index.0.i5.40a73a81sXhSl7"
+        class="selected"></path>
+</svg>

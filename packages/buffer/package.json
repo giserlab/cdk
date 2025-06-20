@@ -1,0 +1,28 @@
+{
+  "name": "@giserlab/buffer",
+  "version": "0.2.0",
+  "description": "缓冲区分析",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "buffer",
+    "formats": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cesium",
+    "geospatial"
+  ],
+  "author": "wangshihan",
+  "license": "ISC",
+  "dependencies": {
+    "@turf/buffer": "^7.2.0",
+    "@turf/helpers": "^7.2.0",
+    "cesium": "^1.101.0"
+  }
+}

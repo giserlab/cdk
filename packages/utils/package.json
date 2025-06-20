@@ -1,0 +1,22 @@
+{
+  "name": "@giserlab/utils",
+  "version": "0.2.0",
+  "description": "utils",
+  "main": "dist/index.esm.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "buildOptions": {
+    "name": "utils",
+    "formats": [
+      "esm"
+    ]
+  },
+  "scripts": {
+    "test": "jest  --config ~/jestconfig.json"
+  },
+  "author": "wangshihan",
+  "license": "ISC",
+  "dependencies": {
+    "cesium": "^1.123.0"
+  }
+}

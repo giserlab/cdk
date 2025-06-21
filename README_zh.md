@@ -1,6 +1,6 @@
 
 <p align="center">
-<img src="./demo/public/favicon.ico" alt="blblcd" style="width:60px;margin: 0px auto" /></p>
+<img src="./demo/public/favicon.ico" alt="CDK" style="width:60px;margin: 0px auto" /></p>
 
 <p align="center" style="font-weight:bolder;">CDK</p>
 

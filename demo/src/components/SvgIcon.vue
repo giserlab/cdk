@@ -1,7 +1,7 @@
 // SvgIcon.vue
 
 <template>
-  <svg :class="svgClass" v-bind="$attrs" :style="{ color: color, fontSize: size + 'px' }">
+  <svg :class="svgClass" v-bind="$attrs" :style="{ color: color, fontSize: size + 'px', cursor: cursor }">
     <use :href="iconName"></use>
   </svg>
 </template>
@@ -20,6 +20,10 @@
     size: {
       type: Number,
       default: () => 20,
+    },
+    cursor: {
+      type: String,
+      default: 'default',
     },
   });
   const iconName = computed(() => `#${props.name}`);

@@ -20,6 +20,10 @@
     height: 100vh;
     padding: 0.5em;
     .sidebar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
       position: relative;
       width: 100vw - $--map-width;
       height: 100%;

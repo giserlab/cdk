@@ -5,7 +5,7 @@ export enum ModelFromType {
   URL = 0,
   ION = 1,
 }
-export interface ModelItem {
+export type ModelItem = {
   name: string;
   status: boolean;
   url: string;
@@ -13,13 +13,13 @@ export interface ModelItem {
   offset?: string;
   style?: Cesium3DTileStyle;
   ionId?: number;
-}
+};
 
-export interface MenuItem {
+export type MenuItem = {
   name: string;
-  icon: string;
+  icon?: string;
   comp?: Component;
   width?: number | string;
   height?: number | string;
   subs?: MenuItem[];
-}
+};

@@ -30,6 +30,9 @@
       <Model />
     </ElCollapseItem>
   </ElCollapse>
+  <div class="footer">
+    <GithubRepo />
+  </div>
 </template>
 
 <script setup lang="ts">
@@ -46,8 +49,9 @@
   import HeightRestriction from '@/components/analysis/HeightRestriction.vue';
   import Buffer from '@/components/analysis/Buffer.vue';
   import Isosurface from '@/components/analysis/Isosurface.vue';
+  import GithubRepo from '@/components/GithubRepo.vue';
 
-  const collpases = [
+  const collpases: MenuItem[] = [
     {
       name: '空间分析',
       subs: [

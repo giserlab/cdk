@@ -4,17 +4,9 @@
 
 <p align="center" style="font-weight:bolder;">CDK</p>
 
+[English](./README.md)
 
-
-CDK ( Cesium Development Kit ) 一款高效、强大的地理空间分析包，基于Cesium开发，提供丰富分析功能，帮助您快速实现复杂的地理信息分析与可视化需求。
-
-
-
-## 特点
-
-**✓** 基于Cesium引擎，提供多种空间分析功能，满足专业GIS分析需求
-
-**✓** 提供简洁API接口，轻松集成到现有Cesium项目中，快速扩展应用功能
+基于Cesium的地理空间分析包，支持快速实现复杂的地理信息分析与可视化需求并轻松集成到现有项目中。
 
 
 
@@ -52,7 +44,7 @@ pnpm run dev
 
 - [x] 缓冲区分析
 
-- [x] 高度控制分析
+- [x] 控高分析
 
 - [x] 等值面分析
 
@@ -67,6 +59,8 @@ pnpm run dev
 
 
 ## 截图
+
+部分截图
 
 ![aspect](./screenshots/aspect.png)
 

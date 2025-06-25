@@ -6,19 +6,7 @@
 
 [中文](./README_zh.md)
 
-
-
-CDK (Cesium Development Kit)
-
-A powerful geospatial analysis toolkit developed based on Cesium. It offers comprehensive analytical functions, enabling you to efficiently meet complex geospatial data analysis and visualization needs.
-
-
-
-## Features
-
-**✓** Built on the Cesium, it delivers diverse spatial analysis capabilities to meet professional GIS requirements.
-
-**✓** Features a clean API for seamless integration into existing Cesium projects, enabling rapid functional expansion.
+A powerful geospatial analysis toolkit built on Cesium, designed to efficiently handle complex geospatial data analysis and visualization needs while seamlessly integrating into existing projects.
 
 
 
@@ -70,9 +58,11 @@ pnpm run dev
 
 ## Screenshots
 
+Some screenshots.
+
 ![aspect](./screenshots/aspect.png)
 
-<p align="center">aspect </p>
+<p align="center">Aspect </p>
 
 
 
@@ -84,13 +74,13 @@ pnpm run dev
 
 ![contour](./screenshots/contour.png)
 
-<p align="center">contour </p>
+<p align="center">Contour </p>
 
 
 
 ![height-restriction](./screenshots/height-restriction.png)  
 
-<p align="center">height restriction </p>
+<p align="center">Height restriction </p>
 
 
 

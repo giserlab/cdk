@@ -18,7 +18,7 @@ export default defineConfig({
       reportsDirectory: './tests/unit/coverage',
       provider: 'istanbul',
       include: ['**/packages/**'],
-      exclude: ['**/demo/**', 'packages/cak', '**/dist/**', '**/scripts/**', '**/tests/**', '**/docs/html/**'],
+      exclude: ['**/demo/**', 'packages/cdk', '**/dist/**', '**/scripts/**', '**/tests/**', '**/docs/html/**'],
     },
   },
 

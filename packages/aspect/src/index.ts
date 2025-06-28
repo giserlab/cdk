@@ -23,6 +23,12 @@ export type AspectResult = {
  * @description 坡向分析
  * @export
  * @class AspectAnalysis
+ * @example
+ * const positions: Cesium.Cartesian3[] = [...];
+ * const analyser = new Aspect(viewer.terrainProvider, 250);
+ * analyser.analyse(positions).then(res =>{
+ *   const { aspects, directions } = res;
+ * });
  */
 export class Aspect {
   /**

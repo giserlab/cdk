@@ -21,7 +21,37 @@ export type ContourResult = {
    */
   lines: ContourLine[];
 };
-
+/**
+ * @description 等高线
+ * @export
+ * @class Contour
+ * @example
+ *  const colorFunc = (num: number) => {
+ *    let colorStart = Cesium.Color.WHITE;
+ *    let colorEnd = Cesium.Color.RED;
+ *    if (0 < num && num <= 0.25) {
+ *      colorStart = Cesium.Color.fromCssColorString('#0cf2f4');
+ *      colorEnd = Cesium.Color.fromCssColorString('#77f40c');
+ *    } else if (0.25 < num && num <= 0.5) {
+ *      colorStart = Cesium.Color.fromCssColorString('#77f40c');
+ *      colorEnd = Cesium.Color.fromCssColorString('#f4dc0c');
+ *    } else if (0.5 < num && num <= 0.75) {
+ *      colorStart = Cesium.Color.fromCssColorString('#f4dc0c');
+ *      colorEnd = Cesium.Color.fromCssColorString('#f45a0c');
+ *    } else if (0.75 < num && num <= 1) {
+ *      colorStart = Cesium.Color.fromCssColorString('#f45a0c');
+ *      colorEnd = Cesium.Color.fromCssColorString('#f00');
+ *    }
+ *    return Cesium.Color.lerp(colorStart, colorEnd, num, new Cesium.Color());
+ *  };
+ *  const analyser = new Contour(viewer.terrainProvider);
+ *  analyser.analyse(positions, state.interval)
+ *  .then(res => {
+ *    const step = (analyser.maxHeight - analyser.minHeight) / 4;
+ *    const minH = analyser.minHeight;
+ *    analyser.visualize(res, 6, colorFunc).forEach(item => primitives.add(item));
+ *  });
+ */
 export class Contour {
   /**
    * @description 地形提供者

@@ -12,6 +12,11 @@ export enum ProfileType {
   MODEL = 'model',
 }
 
+/**
+ * @description 剖面分析选项
+ * @export
+ * @interface ProfileOptions
+ */
 export interface ProfileOptions {
   /**
    * @description 采样间隔
@@ -32,6 +37,12 @@ export interface ProfileOptions {
  * @description 剖面分析类，支持地形和模型
  * @export
  * @class Profile
+ * @example
+ * const positions: Cartesian3[] = [...];
+ * const analyser = new Profile(viewer);
+ * analyser.analyse(positions, { type: state.type, interval: state.interval }).then(res => {
+ *   const { category, positions } = res;
+ * })
  */
 export class Profile {
   private _terrainProvider: Cesium.TerrainProvider;

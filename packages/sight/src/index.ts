@@ -5,6 +5,15 @@ export interface ViewSightOptions {
   invisibleColor?: string;
   barrierColor?: string;
 }
+/**
+ * @description 视线分析
+ * @export
+ * @class ViewSight
+ * @example
+ * const positions: Cartesian3[] = [...];
+ * const analyser = new ViewSight(window.viewer, {});
+ * analyser.analyse(positions[0], positions[positions.length - 1]);
+ */
 export class ViewSight {
   viewer: Viewer;
   visibleColor: string;

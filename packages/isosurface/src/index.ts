@@ -32,6 +32,28 @@ export interface IsosurfaceOptions {
   breakCount: number;
 }
 
+/**
+ * @description 等高面
+ * @export
+ * @class Isosurface
+ * @example
+ * const positions: Cesium.Cartesian3[] = [...];
+ * const state = {
+ *   interval: 50,
+ *   breaks: [0, 25, 50, 75, 100] as any[],
+ *   lineWidth: 2,
+ * }
+ * const genColors = ()=> Cesium.Color.fromRandom();
+ * const analyser = new Isosurface(viewer.terrainProvider, {
+ *   width: 1500,
+ *   colors: genColors(8),
+ *   breakCount: 8,
+ * });
+ * analyser.analyse(positions, state.interval)
+ *       .then(e => {
+ *         viewer.entities.add(e);
+ *       })
+ */
 export class Isosurface {
   private _terrainProvider: Cesium.TerrainProvider;
   private _minHeight: number = 0;

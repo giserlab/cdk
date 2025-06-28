@@ -5,7 +5,7 @@
 import { execa } from 'execa';
 import { getPkgs } from './utils.js';
 
-const mainPkgName = 'cak';
+const mainPkgName = 'cdk';
 const pkgsSrc = getPkgs();
 
 const pkgsSubs = pkgsSrc.filter(p => p !== mainPkgName);

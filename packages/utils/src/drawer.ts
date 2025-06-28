@@ -45,18 +45,42 @@ const getCatesian3FromPX = (viewer: Cesium.Viewer, px: Cesium.Cartesian2) => {
   return false;
 };
 
+/**
+ * @description 绘制类型
+ * @export
+ * @enum {number}
+ */
 export enum DrawType {
   POINT = 'point',
   POLYLINE = 'poyline',
   POLYGON = 'polygon',
 }
 
+/**
+ * @description 绘制配置
+ * @export
+ * @interface DrawOptions
+ */
 export interface DrawOptions {
   type?: DrawType;
   showShape?: boolean;
   clampToGround?: boolean;
 }
 
+/**
+ * @description 绘制类
+ * @export
+ * @class Drawer
+ * @example
+    const drawer = new Drawer(window.viewer, {
+    type: DrawType.POLYGON,
+    clampToGround: false,
+    showShape: true,
+  });
+  drawer.drawingEvt.addEventListener((positions: Cartesian3[]) => {});
+  drawer.start();
+  drawer.stop();
+ */
 export class Drawer {
   private _positions: Cesium.Cartesian3[];
   private _lcc: number;

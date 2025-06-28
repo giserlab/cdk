@@ -34,6 +34,19 @@ export interface BufferOptions {
  * @description 缓冲区分析
  * @export
  * @class Buffer
+ * @example
+ * const positions: Cesium.Cartesian3[] = [...];
+ * const analyser = new Buffer({ type: BufferType.POLYLINE, distance: 500 });
+ * analyser
+ * .analyse(positions)
+ * .then(resp => {
+ *   ds.entities.add({
+ *     polygon: {
+ *       hierarchy: new Cesium.PolygonHierarchy(resp),
+ *       material: Cesium.Color.fromCssColorString(state.color),
+ *     },
+ *   });
+ * });
  */
 export class Buffer {
   /**

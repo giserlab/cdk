@@ -41,14 +41,14 @@ const formatMap = {
     format: 'cjs',
   },
   iife: {
-    name: 'cak',
+    name: 'cdk',
     file: resolveDev(`dist/index.iife.js`),
     format: 'iife',
     sourcemap: true,
     globals,
   },
   umd: {
-    name: 'cak',
+    name: 'cdk',
     exports: 'named',
     file: resolveDev(`dist/index.main.js`),
     format: 'umd',

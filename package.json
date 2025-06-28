@@ -1,5 +1,5 @@
 {
-  "name": "cak",
+  "name": "cdk",
   "description": "geospatial for Cesium",
   "type": "module",
   "private": true,
@@ -12,7 +12,7 @@
     "demo:build": "cd demo && npm run build",
     "doc:html": "node scripts/doc_html.js",
     "doc:md": "node scripts/doc_md.js",
-    "docs": "typedoc ./packages/cak/src/index.ts --out ./docs --favicon .assets/favicon.ico --name CDK-Documentation",
+    "docs": "typedoc ./packages/cdk/src/index.ts --out ./docs --favicon .assets/favicon.ico --name CDK-Documentation",
     "new": "node scripts/add_pkg.js",
     "release": "node scripts/release.js",
     "unrelease": "node scripts/unrelease.js",

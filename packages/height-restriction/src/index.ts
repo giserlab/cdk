@@ -42,6 +42,24 @@ export interface HeightResctrictionOptions {
  * @description 限高分析
  * @export
  * @class HeightResctriction
+ * @example
+ * const positions: Cesium.Cartesian3[] = [...];
+ * const state = {
+ *   tiped: false,
+ *   loading: false,
+ *   height: 200,
+ *   baseHeight: 0,
+ *   upColor: 'rgba(243, 86, 25, 0.7)',
+ *   downColor: 'rgba(21, 170, 57, 0.7)',
+ *  };
+ *  const analyser = new HeightResctriction(viewer, {
+ *   height: state.height,
+ *   baseHeight: state.baseHeight,
+ *   upColor: state.upColor,
+ *   downColor: state.downColor,
+ *   extrudedHeight: 1000,
+ * });
+ * analyser.analyse(positions);
  */
 export class HeightResctriction {
   private upPrimitive: Cesium.ClassificationPrimitive | null;

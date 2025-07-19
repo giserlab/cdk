@@ -12,7 +12,7 @@ A powerful geospatial analysis toolkit built on Cesium, designed to efficiently 
 
 ## Usage
 
-Install via `npm`/`pnpm`
+Install 
 
 ```bash
 npm install @giserlab/cdk
